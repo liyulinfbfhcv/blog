@@ -46,7 +46,7 @@ function App() {
 
       {/* Main content area where child routes will render */}
       {/* 主内容区域（子路由将在此渲染） */}
-      <div id="main" style={{ flex: 1, height: " 100%" }}>
+      <div id="main" style={{ flex: 1, height: " 100%", padding: "2rem" }}>
         <Outlet />{" "}
         {/* React Router outlet for nested routes / 嵌套路由的渲染出口 */}
       </div>

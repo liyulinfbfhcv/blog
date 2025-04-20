@@ -15,10 +15,12 @@ function Header() {
     <div
       style={{
         display: "flex",
+        position: "fixed",
         justifyContent: "space-between",
         alignItems: "center",
-        height: "100%",
-        padding: "0 1rem",
+        height: "4rem",
+        width: "100%",
+        zIndex: "100",
         backgroundColor: "#fff", // Add background color
         boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)", // Add subtle shadow
       }}
@@ -51,7 +53,6 @@ function Header() {
         {/* GitHub link with better styling */}
         <Link
           href="https://github.com/liyulinfbfhcv"
-          target="_blank"
           style={{
             display: "flex",
             alignItems: "center",

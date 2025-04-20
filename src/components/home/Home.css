@@ -1,0 +1,12 @@
+.intro{
+display: 'flex';
+flex-direction: row;
+gap: 0.5rem;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+.icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
